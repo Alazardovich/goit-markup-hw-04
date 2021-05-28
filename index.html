@@ -16,27 +16,27 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+
     <header class="page-header">
       <div class="container">
-        <a class="logo" href="./index.html"
-          >Web<span class="studio-black">Studio</span></a
-        >
-        <nav>
+               
+        <nav class="display-nav-page">
+            <a class="logo" href="./index.html">Web<span class="studio-black">Studio</span></a>
           <ul class="site-nav list">
-            <li><a class="link-header" href="/index.html">Студия</a></li>
-            <li>
+            <li class="group"><a class="link-header" href="/index.html">Студия</a></li>
+            <li class="group">
               <a class="link-header" href="./portfolio.html">Портфолио</a>
             </li>
-            <li><a class="link-header" href="">Контакты</a></li>
+            <li class="group"><a class="link-header" href="">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li>
+          <li class="group">
             <a class="link-header" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+              >info@devstudio.com</a>
+            
           </li>
-          <li>
+          <li class="group">
             <a class="link-header" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
@@ -45,15 +45,17 @@
       </div>
     </header>
     <main>
+      <div class="pictures-hero">
       <section class="page-hero">
-        <h1 class="hero-title">Эффективное решение для вашего бизнеса</h1>
-        <button class="style-button" type="button">Заказать услугу</button>
+          <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
+          <button class="style-button" type="button">Заказать услугу</button>
       </section>
+      </div>
 
-      <section class="section">
+      <section class="section-detail">
         <h2></h2>
         <div class="container">
-          <ul class="feautures-list list">
+          <ul class="features-list list">
             <li class="block-features">
               <h3 class="feature-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
               <p>
@@ -94,20 +96,20 @@
           <h2 class="doing-work">Чем мы занимаемся</h2>
           <ul class="works list">
             <li class="block-works">
-              <img src="./images/img(7).jpg" alt="IOS приложения" width="300" />
+              <img src="./images/img(7).jpg" alt="IOS приложения" width="370" />
             </li>
             <li class="block-works">
               <img
                 src="./images/img(1)(1).jpg"
                 alt="Android приложения"
-                width="300"
+                width="370"
               />
             </li>
             <li class="block-works">
               <img
                 src="./images/img(2)(1).jpg"
                 alt="Windows приложения"
-                width="300"
+                width="370"
               />
             </li>
           </ul>
@@ -119,40 +121,40 @@
             <h2 class="doing-work">Наша команда</h2>
 
             <ul class="features list">
-              <li>
+              <li class="person-features">
                 <img
                   src="./images/img(3)(1).jpg"
                   alt="Product Designer"
-                  width="300"
+                  width="270"
                 />
-                <h3 class="works-names">Игорь Демьяненко</h3>
-                <p>Product Designer</p>
+                <div class="title-name-work"><h3 class="works-names">Игорь Демьяненко</h3>
+                <p>Product Designer</p></div>
               </li>
 
-              <li>
+              <li class="person-features">
                 <img
                   src="./images/img(4)(1).jpg"
                   alt="Fronted Developer"
-                  width="300"
-                />
-                <h3 class="works-names">Ольга Репина</h3>
-                <p>Fronted Developer</p>
+                  width="270"
+                /><div class="title-name-work"><h3 class="works-names">Ольга Репина</h3>
+                <p>Fronted Developer</p></div>
+                
               </li>
 
-              <li>
-                <img src="./images/img(5)(1).jpg" alt="Marketing" width="300" />
-                <h3 class="works-names">Николай Тарасов</h3>
-                <p>Marketing</p>
+              <li class="person-features">
+                <img src="./images/img(5)(1).jpg" alt="Marketing" width="270" />
+                <div class="title-name-work"><h3 class="works-names">Николай Тарасов</h3>
+                <p>Marketing</p></div>
               </li>
 
-              <li>
+              <li class="person-features">
                 <img
                   src="./images/img(6)(1).jpg"
                   alt="UI Designer"
-                  width="300"
-                />
-                <h3 class="works-names">Михаил Ермаков</h3>
-                <p>UI Designer</p>
+                  width="270"
+                /><div class="title-name-work"><h3 class="works-names">Михаил Ермаков</h3>
+                <p>UI Designer</p></div>
+                
               </li>
             </ul>
           </div>
