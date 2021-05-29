@@ -248,13 +248,19 @@ img {
 .icon-inst {
   width: 32px;
   height: 32px;
-  fill: #AFB1B8
+  fill: #AFB1B8; 
 }
+ .icon-inst:hover,
+ .icon-inst:focus {
+  fill:#fff;
+ }
+
 .icons-social:hover,
 .icons-social:focus {
   background: var(--accent-color);
   color: white;
-} 
+  fill:#fff;
+}  
 
 /* .icons-social:nth-child(1) {
   background-image: url(..//images/icons.svg/instagram.svg); 
