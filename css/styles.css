@@ -425,7 +425,24 @@ background-color: var(--primery-background);
 height: 60px;
 
 }
+/* Icon-footer */
+.footer-icon-soc .welcome-soc {
+font-family: var(--primery-text);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 3%;
+color: var(--primery-background);
+}
+.footer-icon-soc {
+  margin-left: 70px;
+
+}
+.addresses-group {
+  display: flex;
+}
 /* Icons headre-contacts */
+
 .link-header {
   display: inline-flex;
   align-items: center;
@@ -476,6 +493,7 @@ height: 60px;
 }
 
 /* footer */
+
 
 .address {
   background: #2f303a;
