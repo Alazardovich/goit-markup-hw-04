@@ -393,7 +393,8 @@ img {
   margin-left: 30px;
   fill: #afb1b8;
 }
-.border-icon:hover {
+.border-icon:hover,
+.border-icon:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
@@ -466,6 +467,9 @@ img {
 
 .section {
   color: var(--primery-color);
+}
+.team-b-g {
+  background-color: #f5f4fa;
 }
 
 .section-button p {
@@ -552,7 +556,11 @@ address li {
   padding: 0;
   margin-top: 0;
 }
-
+.block-projects:hover,
+.block-projects:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .link {
   font-family: var(--primery-text);
   font-weight: 500;
@@ -579,6 +587,8 @@ address li {
 .link:focus {
   background-color: var(--accent-color);
   color: var(--primery-background);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .link {
   color: var(--primery-color);
