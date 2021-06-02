@@ -256,24 +256,22 @@ img {
   fill: #afb1b8;
 }
 .icon-inst {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   fill: #afb1b8;
 }
 .icons-social:hover .icon-inst,
-.icons-social:hover .icon-inst {
+.icons-social:focus .icon-inst {
   fill: #fff;
   background-color: var(--accent-color);
 }
 
-.icons-social:hover {
-  background: var(--accent-color);
-  fill: #fff;
-}
+.icons-social:hover,
 .icons-social:focus {
   background: var(--accent-color);
   fill: #fff;
 }
+
 /* Footer social icons */
 .fill-footer-soc {
   fill: #fff;
